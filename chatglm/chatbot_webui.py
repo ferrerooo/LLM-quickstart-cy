@@ -4,7 +4,7 @@ from langchain_community.llms import ChatGLM
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 
-CHATGLM_URL = "http://127.0.0.1:8001"
+CHATGLM_URL = "http://127.0.0.1:8000"
 
 def init_chatbot():
     llm = ChatGLM(
